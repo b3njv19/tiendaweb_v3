@@ -1,0 +1,50 @@
+body.bg-dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar.bg-light {
+    background-color: #e8edf2 !important;
+}
+
+.card {
+    background-color: #343a40;
+}
+
+.card .card-title, .card .card-text {
+    color: #ffffff;
+}
+
+.rgb-border {
+    border: 5px solid;
+    animation: rgb-border-animation 2s infinite;
+}
+
+@keyframes rgb-border-animation {
+    0% {
+        border-color: red;
+    }
+    33% {
+        border-color: green;
+    }
+    66% {
+        border-color: blue;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+.form-control.bg-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.modal-content.bg-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+body {
+    background-color: #121212; /* Color de fondo oscuro */
+    color: #ffffff; /* Color del texto */
+}
